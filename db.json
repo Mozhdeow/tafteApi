@@ -1,38 +1,4 @@
 {
-  "userRegister": [
-    {
-      "id": "1",
-      "name": "John Doe",
-      "email": "john@example.com",
-      "password": "password123",
-      "profilePicture": null,
-      "bio": "Software developer with a passion for building great user experiences."
-    },
-    {
-      "id": "2",
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "password": "password123",
-      "profilePicture": null,
-      "bio": "UX designer and front-end developer."
-    },
-    {
-      "id": "7b90",
-      "name": "qq",
-      "email": "mm@example.com",
-      "password": "111111",
-      "profilePicture": null,
-      "bio": "errg5"
-    },
-    {
-      "id": "e947",
-      "name": "mozhde",
-      "email": "mozhdemohamadi00@gmail.com",
-      "password": "lN*RxaR^!$--4",
-      "profilePicture": null,
-      "bio": "54154[[[[[[[[[[[[[[[[[[[547547"
-    }
-  ],
   "users": [
     {
       "id": "063c",
@@ -93,6 +59,49 @@
       "phone": "09632587411",
       "email": "elidjr@kds.sjf",
       "password": "10000000"
+    },
+    {
+      "id": "fe0b",
+      "name": "ooo",
+      "email": "rr00@gmail.com",
+      "password": "12345678Aa",
+      "profilePicture": null,
+      "bio": ""
+    },
+    {
+      "id": "b06e",
+      "name": "xxx",
+      "email": "rr030@gmail.com",
+      "password": "123123Aa",
+      "profilePicture": null,
+      "bio": "wet",
+      "skills": [
+        {
+          "value": "react",
+          "label": "React"
+        }
+      ],
+      "city": {
+        "value": "houston",
+        "label": "Houston"
+      },
+      "phone": "11111111111"
+    },
+    {
+      "id": "b73b",
+      "name": "ert",
+      "email": "iujo9p@tt.ll",
+      "password": "12345678",
+      "profilePicture": null,
+      "bio": "",
+      "phone": "12345676543",
+      "skills": [
+        {
+          "value": "react",
+          "label": "React"
+        }
+      ],
+      "city": null
     }
   ],
   "slider": [
@@ -401,8 +410,22 @@
     {
       "id": "1",
       "name": "ویدئو اول اول",
-      "category": "دسته بندی 1",
-      "showType": "مدیر ها",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2022/10/%DA%A9%D8%A7%D9%88%D8%B1-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%AA-%D8%A7%D8%B2-%D8%B2%D9%85%D8%A7%D9%86-Site.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
@@ -424,8 +447,18 @@
     {
       "id": "2",
       "name": "ویدئو دوم ویدئو دوم ویدئو دوم ",
-      "category": " دسته بندی 1 دسته بندی 1دسته بندی 1",
-      "showType": "مادر ها",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2022/10/%DA%A9%D8%A7%D9%88%D8%B1-%D9%82%DB%8C%D9%81-%D9%81%D8%B1%D9%88%D8%B4-Site.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
@@ -446,9 +479,18 @@
     },
     {
       "id": "3",
-      "name": "پادکست سوم ",
-      "category": "دسته بندی 2",
-      "showType": "مادر ها",
+      "category": [
+        {
+          "value": "gone",
+          "label": "gone"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
@@ -470,8 +512,22 @@
     {
       "id": "4",
       "name": "پادکست",
-      "category": "دسته بندی 2",
-      "showType": "مدیر ها",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مادر ها",
+          "label": "مادر ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
@@ -493,8 +549,22 @@
     {
       "id": "14",
       "name": "پادکست",
-      "category": "دسته بندی 2",
-      "showType": "مدیر ها",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
@@ -516,8 +586,22 @@
     {
       "id": "41",
       "name": "پادکست",
-      "category": "دسته بندی 2",
-      "showType": "مدیر ها",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
@@ -539,8 +623,22 @@
     {
       "id": "410",
       "name": "پادکست",
-      "category": "دسته بندی 2",
-      "showType": "مدیر ها",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4",
