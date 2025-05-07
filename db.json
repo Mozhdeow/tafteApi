@@ -316,7 +316,22 @@
     {
       "id": "1",
       "name": "پادکست اول پادکست اول",
-      "category": "دسته بندی 1",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/02/%D8%A8%DB%8C%D8%B2%D9%86%D8%B3-%D9%85%D8%B3%D8%AA%D8%B1%DB%8C-500x281.jpg",
       "podcastUrl": "https://www.kozco.com/tech/organfinale.mp3",
@@ -332,14 +347,28 @@
       "writerId": 3,
       "createAt": "2025/01/12",
       "releaseDate": "2023-05-13",
-      "showType": "مدیر ها",
       "likes": 3,
       "dislikes": 8
     },
     {
       "id": "2",
       "name": "پادکست دوم پادکست دوم پادکست دوم ",
-      "category": " دسته بندی 1 دسته بندی 1دسته بندی 1",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/03/nik_andish-1536x864.jpg",
       "podcastUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3",
@@ -355,16 +384,30 @@
       "writerId": 3,
       "createAt": "2023-05-12T14:05:00",
       "releaseDate": "2023-05-13",
-      "showType": "مدیر ها",
       "likes": 3,
       "dislikes": 8
     },
     {
       "id": "3",
       "name": "پادکست سوم ",
-      "category": "دسته بندی 2",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدیر ها",
+          "label": "مدیر ها"
+        },
+        {
+          "value": "مادر ها",
+          "label": "مادر ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
-      "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
+      "image": "https://images.freeimages.com/images/large-previews/88e/money-money-money-1241634.jpg?fmt=webp&w=500",
       "podcastUrl": "https://www.kozco.com/tech/32.mp3",
       "status": "فعال",
       "keyWords": "1",
@@ -378,14 +421,24 @@
       "writerId": 3,
       "createAt": "2025-05-14T14:45:00",
       "releaseDate": "2023-05-13",
-      "showType": "مادر ها",
       "likes": 3,
       "dislikes": 2
     },
     {
       "id": "4",
       "name": "پادکست  ",
-      "category": "دسته بندی 2",
+      "category": [
+        {
+          "value": "cat",
+          "label": "cat"
+        }
+      ],
+      "showType": [
+        {
+          "value": "مدرس ها",
+          "label": "مدرس ها"
+        }
+      ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
       "image": "https://hosseintaheri.ir/wp-content/uploads/2024/09/%D9%85%D8%B1%D8%A8%DB%8C%DA%AF%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7-%DA%A9%D8%A7%D8%B1.jpg",
       "podcastUrl": " https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3",
@@ -401,7 +454,6 @@
       "writerId": 3,
       "createAt": "2023-05-15T10:30:00",
       "releaseDate": "2023-05-13",
-      "showType": "مدرس ها",
       "likes": 3,
       "dislikes": 8
     }
@@ -427,7 +479,7 @@
         }
       ],
       "body": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
-      "image": "https://hosseintaheri.ir/wp-content/uploads/2022/10/%DA%A9%D8%A7%D9%88%D8%B1-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%AA-%D8%A7%D8%B2-%D8%B2%D9%85%D8%A7%D9%86-Site.jpg",
+      "image": "https://images.freeimages.com/variants/oo2yy57SHzz8cTXwEwX5AoGx/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d?fmt=webp&w=500",
       "videoUrl": "https://www.sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4",
       "status": "فعال",
       "keyWords": "1",
